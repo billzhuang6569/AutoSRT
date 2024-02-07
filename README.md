@@ -3,6 +3,8 @@
 
 A simple SRT recognition implementation: Utilizes OpenAI's Whisper to recognize audio, automatically creating SRT and TXT files.
 
+<img width="1472" alt="image" src="https://github.com/billzhuang6569/AutoSRT/assets/68314048/a87728ce-97ec-45e4-babc-91e81ab08412">
+
 
 # Features
 - 符合生产使用的SRT规范
