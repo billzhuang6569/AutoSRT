@@ -1,12 +1,12 @@
-WhatOnEarth一探究竟 - AutoSRT
-一个简单的字幕识别工具，利用OpenAI的Whisper自动识别并创建SRT、TXT。
-A simple SRT recognition implementation: Utilizes OpenAI's Whisper to recognize audio, automatically creating SRT and TXT files.
+WhatOnEarth一探究竟 - AutoSRT  
+一个简单的字幕识别工具，利用OpenAI的Whisper自动识别并创建SRT、TXT。  
+A simple SRT recognition implementation: Utilizes OpenAI's Whisper to recognize audio, automatically creating SRT and TXT files.  
 
 # Features
-🎙️ 使用Whisper识别音频转写，GPT-4o自我反省SRT格式
-📝 使用自然语言声明字幕格式规范，去掉条条框框
-🔍 自由添加参考文本、名词，让翻译准确无误
-💯 完全免费商用，上手即用
+- 🎙️ 使用Whisper识别音频转写，GPT-4o自我反省SRT格式
+- 📝 使用自然语言声明字幕格式规范，去掉条条框框
+- 🔍 自由添加参考文本、名词，让翻译准确无误
+- 💯 完全免费商用，上手即用
 
 # Screenshots
 <img width="1580" alt="image" src="https://github.com/user-attachments/assets/c40e20f8-02cf-43e2-af81-19dea419a1fc">
