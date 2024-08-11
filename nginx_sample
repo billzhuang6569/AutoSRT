@@ -1,0 +1,25 @@
+    server{
+        listen 443 ssl;
+        server_name your_domain.com;
+
+        ssl_certificate /path/to/your/certificate.cer;
+        ssl_certificate_key /path/to/your/certificate.key;
+        ssl_trusted_certificate /path/to/your/ca.cer;
+
+        client_max_body_size 2048m;  #允许上传文件大小
+        proxy_read_timeout 600s;  #超时时间
+
+                # 新增路径代理到Gradio
+        location /srt/ {
+            proxy_pass http://127.0.0.1:7861;  # Gradio 运行在端口 7861
+            proxy_http_version 1.1;
+            proxy_set_header Host $http_host;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+    }
+
+    
