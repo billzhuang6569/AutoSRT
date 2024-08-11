@@ -18,7 +18,7 @@
 - 安装依赖：终端内运行 pip install -r requirements
 - 在conf.py中替换你的openai-api-key
 - 运行：终端内运行命令 python run_web.py
-- 浏览器访问：http://127.0.0.1:7860
+- 浏览器访问：http://127.0.0.1:7861 （在conf中可以更改端口）
 
 # 🌐 部署在VPS
 - 进一步：你可以部署在VPS上共享使用
