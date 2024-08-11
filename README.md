@@ -20,12 +20,14 @@ A simple SRT recognition implementation: Utilizes OpenAI's Whisper to recognize 
 
 # 部署在VPS
 - 进一步：你可以部署在VPS上共享使用
-- 参考Nginx设置
+- [参考Nginx设置](https://github.com/billzhuang6569/AutoSRT/blob/main/nginx_sample)
 
 
 # More
 - 我并不是一名开发者，我只是一名视频设计师
 - 最近对编程感兴趣，这是我的练习
+- [WhatOnEarth一探究竟](https://www.woe.show)是国内领先的创意动画视频工作室，在内部，我们也会尝试更先进、高效的Workflow。
+- 联系WOE：hello@woe.show
 
 Peace！
 
