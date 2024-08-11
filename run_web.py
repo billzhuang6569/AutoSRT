@@ -4,6 +4,7 @@ import os
 from pydub import AudioSegment
 import main
 import base64
+import conf
 
 # 获取当前Python文件的绝对路径
 py_abspath = os.path.abspath(__file__)
@@ -173,4 +174,5 @@ with gr.Blocks() as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch()
+    gradio_port = conf.gradio_port
+    demo.launch(server_port=gradio_port)
