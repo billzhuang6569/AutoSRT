@@ -4,10 +4,8 @@
 
 <span style="color: gray;">A simple SRT recognition implementation: Utilizes OpenAI's Whisper to recognize audio, automatically creating SRT and TXT files.</span>
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <a href="https://ai.woe.show/srt/" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">体验 AutoSRT</a>
-  <a href="https://www.woe.show" style="display: inline-block; padding: 10px 20px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">访问 WOE 官网</a>
-</div>
+[![AutoSRT](https://img.shields.io/badge/AutoSRT-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://ai.woe.show/srt/)
+[![WOE官网](https://img.shields.io/badge/WOE官网-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)](https://www.woe.show)
 
 # ✨ Features
 - 🎙️ 使用Whisper识别音频转写，GPT-4o自我反省断句、SRT格式
