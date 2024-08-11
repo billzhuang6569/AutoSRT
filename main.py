@@ -35,21 +35,3 @@ def main(audio_filepath, user_prompt, response_format, timestamp_granularities, 
     
     return output_filepath
 
-# 示例用法
-if __name__ == "__main__":
-    audio_filepath = "audio_20240207_job32rMAU.mp3"
-    user_prompt = "腾讯，人工智能，行业大模型，京东，数科"
-    response_format = "verbose_json"
-    timestamp_granularities = "word"
-    format_requirements = {
-        "每行最多字数": 20,
-        "标点符号": r"不能出现任何标点符号（逗号、句号），只允许出现上引号【”】、下引号【“】、书名号【《》】，顿号【、】由空格【 】替代",
-        "语言": "简体中文为主，可能掺杂少量英文"
-    }
-    
-    result = main(audio_filepath, user_prompt, response_format, timestamp_granularities, format_requirements)
-    if result:
-        print(f"Processing completed. SRT file saved at: {result}")
-    else:
-        print("Processing failed.")
-
